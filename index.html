@@ -22,12 +22,111 @@
 
     <!-- Sikrer den vises korrekt på mobil, tablet mv. ved at tage ift. skærmstørrelse - bliver brugt til responsive websider -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
+
+
+        <title>Background with Different Shapes and Colors</title>
+        <style>
+            body {
+                background-color: #f8f8f8;
+            }
+
+            .shape {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                overflow: hidden;
+                z-index: -1;
+            }
+
+            #circle1 {
+                background-color: #A7D5E1;
+                width: 200px;
+                height: 200px;
+                border-radius: 50%;
+                position: absolute;
+                top: 100px;
+                left: 150px;
+            }
+
+            #rectangle1 {
+                background-color: #E1B7A7;
+                width: 200px;
+                height: 300px;
+                position: absolute;
+                top: 200px;
+                right: 100px;
+                transform: rotate(30deg);
+                background: linear-gradient(to right, #00a8ff, #c23616, #f1c40f);
+            }
+
+            #triangle1 {
+                width: 0;
+                height: 0;
+                border-bottom: 200px solid #D4A4C9;
+                border-left: 100px solid transparent;
+                position: absolute;
+                bottom: 100px;
+                left: 100px;
+            }
+
+            #circle2 {
+                background-color: #F6C547;
+                width: 300px;
+                height: 300px;
+                border-radius: 50%;
+                position: absolute;
+                top: 500px;
+                right: 200px;
+            }
+
+            #rectangle2 {
+                background-color: #90BE6D;
+                width: 300px;
+                height: 200px;
+                position: absolute;
+                bottom: 100px;
+                left: 200px;
+                transform: rotate(-15deg);
+            }
+
+            #triangle2 {
+                width: 0;
+                height: 0;
+                border-top: 200px solid #FF9B71;
+                border-right: 100px solid transparent;
+                position: absolute;
+                bottom: 150px;
+                right: 100px;
+            }
+        </style>
+    </head>
+
+<div class="shape" id="circle1"></div>
+<div class="shape" id="rectangle1"></div>
+<div class="shape" id="triangle1"></div>
+<div class="shape" id="circle2"></div>
+<div class="shape" id="rectangle2"></div>
+<div class="shape" id="triangle2"></div>
+
 
 <!-- i <body> har man alt indhold på siden som brugeren kan se -->
 <body>
 
-<!-- Her skal sidens indhold ligge -->
+<!-- Her skal sidens indhold ligge
+
+<div class="box"></div>
+
+<div class="box2"></div>-->
+
+
+
+
+
+
+
+
 
 </body>
 </html>
