@@ -27,7 +27,7 @@
         <title>Background with Different Shapes and Colors</title>
         <style>
             body {
-                background-color: #f8f8f8;
+                background-color: #fff6e8;
             }
 
             .shape {
@@ -41,64 +41,154 @@
             }
 
             #circle1 {
-                background-color: #A7D5E1;
-                width: 200px;
-                height: 200px;
+                background-color: #FEA9A1;
+                width: 300px;
+                height: 100px;
                 border-radius: 50%;
                 position: absolute;
-                top: 100px;
-                left: 150px;
+                top: 150px;
+                left: 25px;
+                transform: rotate(170deg);
+                opacity: 45%;
             }
 
             #rectangle1 {
-                background-color: #E1B7A7;
-                width: 200px;
-                height: 300px;
+                background-color: #7CBFBC;
+                width: 150px;
+                height: 400px;
                 position: absolute;
                 top: 200px;
                 right: 100px;
-                transform: rotate(30deg);
-                background: linear-gradient(to right, #00a8ff, #c23616, #f1c40f);
+                border-radius: 50px;
+                transform: rotate(40deg);
+                opacity: 50%;
+                background: linear-gradient(to right, #7CBFBC, #FEA9A1);
             }
 
             #triangle1 {
                 width: 0;
                 height: 0;
-                border-bottom: 200px solid #D4A4C9;
+                border-bottom: 200px solid #F6C547;
                 border-left: 100px solid transparent;
                 position: absolute;
-                bottom: 100px;
-                left: 100px;
+                bottom: 150px;
+                left: 50px;
+                transform: rotate(60deg);
+                opacity: 30%;
             }
 
             #circle2 {
                 background-color: #F6C547;
-                width: 300px;
-                height: 300px;
+                width: 200px;
+                height: 200px;
                 border-radius: 50%;
                 position: absolute;
-                top: 500px;
-                right: 200px;
+                top: 375px;
+                left: 50px;
+                background: linear-gradient(to right, #7CBFBC,#C39E40, #FEA9A1);
+                opacity: 70%;
             }
 
             #rectangle2 {
-                background-color: #90BE6D;
-                width: 300px;
-                height: 200px;
+                background-color: #C39E40;
+                width: 250px;
+                height: 150px;
                 position: absolute;
                 bottom: 100px;
-                left: 200px;
-                transform: rotate(-15deg);
+                left: 150px;
+                transform: rotate(-25deg);
+                border-radius: 50px;
+                opacity: 50%;
+                background: linear-gradient(to right, #fff6e8,#C39E40, #FEA9A1);
             }
 
             #triangle2 {
                 width: 0;
                 height: 0;
-                border-top: 200px solid #FF9B71;
+                border-top: 200px solid #7CBFBC;
                 border-right: 100px solid transparent;
                 position: absolute;
                 bottom: 150px;
                 right: 100px;
+                opacity: 60%;
+            }
+
+            #circle3 {
+                background-color: #FEA9A1;
+                width: 100px;
+                height: 100px;
+                border-radius: 50%;
+                position: absolute;
+                top: 200px;
+                left: 300px;
+                transform: rotate(170deg);
+                opacity: 70%;
+                background: linear-gradient(to right, #FEA9A1, #7CBFBC);
+            }
+
+            #circle4 {
+                background-color: #FEA9A1;
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+                position: absolute;
+                top: 330px;
+                left: 300px;
+                transform: rotate(170deg);
+                opacity: 70%;
+                background: linear-gradient(to right, #FEA9A1, #7CBFBC);
+            }
+
+            #circle5 {
+                background-color: #FEA9A1;
+                width: 70px;
+                height: 70px;
+                border-radius: 50%;
+                position: absolute;
+                top: 50px;
+                left: 80px;
+                transform: rotate(170deg);
+                opacity: 70%;
+                background: linear-gradient(to right, #FEA9A1, #7CBFBC);
+            }
+
+            #circle6 {
+                background-color: #FEA9A1;
+                width: 70px;
+                height: 70px;
+                border-radius: 50%;
+                position: absolute;
+                top: 250px;
+                left: 275px;
+                transform: rotate(170deg);
+                opacity: 70%;
+                background: linear-gradient(to right, #FEA9A1, #7CBFBC);
+            }
+
+            #circle7 {
+                background-color: #FEA9A1;
+                width: 30px;
+                height: 30px;
+                border-radius: 50%;
+                position: absolute;
+                top: 375px;
+                left: 270px;
+                transform: rotate(190deg);
+                opacity: 70%;
+                background: linear-gradient(to right, #FEA9A1, #7CBFBC);
+            }
+
+            #circle8 {
+                background-color: #FEA9A1;
+                width: 30px;
+                height: 60px;
+                border-radius: 50%;
+                position: absolute;
+                top: 140px;
+                left: 100px;
+                transform: rotate(230deg);
+                opacity: 70%;
+                background: linear-gradient(to right, #FEA9A1, #7CBFBC);
             }
         </style>
     </head>
@@ -109,6 +199,12 @@
 <div class="shape" id="circle2"></div>
 <div class="shape" id="rectangle2"></div>
 <div class="shape" id="triangle2"></div>
+<div class="shape" id="circle3"></div>
+<div class="shape" id="circle4"></div>
+<div class="shape" id="circle5"></div>
+<div class="shape" id="circle6"></div>
+<div class="shape" id="circle7"></div>
+<div class="shape" id="circle8"></div>
 
 
 <!-- i <body> har man alt indhold på siden som brugeren kan se -->
@@ -116,9 +212,7 @@
 
 <!-- Her skal sidens indhold ligge
 
-<div class="box"></div>
 
-<div class="box2"></div>-->
 
 
 
